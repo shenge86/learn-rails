@@ -1,0 +1,31 @@
+<% content_for :title do %><%= @owner.name %><% end %>
+<% content_for :description do %>Website of <%= @owner.name %><% end %>
+
+<h3>Welcome to <%= @owner.name %></h3>
+
+<section>
+	<%= image_tag "shengeorgebush.jpg" %>
+</section>
+
+<section>
+	<div class="column">
+		<h2>Sign up for my newsletter and learn about new technology companies that may just change the world.</h2>
+	</div>
+	
+	<div class="column">
+		<div class="form-centered">
+			<%= simple_form_for @visitor do |f| %>
+				<%= f.error_notification %>
+				<%= f.input :email, label: false, :placeholder => 'Your email address...' %>
+				<br/>
+				<%= f.button :submit, "Sign up for the newsletter", :class => "submit" %>
+			<% end %>
+		</div>
+	</div>
+</section>
+
+
+
+<% 3.times do %>
+<li>Item</li>
+<% end %>
