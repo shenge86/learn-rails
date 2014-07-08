@@ -16,5 +16,6 @@
 # TECHNOLOGY COLOPHON
 
     Ruby on Rails, PostgreSQL database, Thin web server, Heroku
+	Zurb Foundation framework
 
     Source: https://github.com/shenge86/learn-rails
