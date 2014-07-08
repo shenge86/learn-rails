@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Shen Ge -- @shenge86
+
+# PAST TEAM MEMBERS:
+
+    NO ONE
+
+# THANKS
+
+    Daniel Keohe -- @rails_apps
+
+# TECHNOLOGY COLOPHON
+
+    Ruby on Rails, PostgreSQL database, Thin web server, Heroku
+
+    Source: https://github.com/shenge86/learn-rails
